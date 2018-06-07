@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.englishlearning.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@color/category_family"
+        style="@style/CategoryStyle"
+        android:text="@string/category_family"
+        android:textSize="35dp"
+        android:id="@+id/family"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:text="@string/category_phrases"
+        style="@style/CategoryStyle"
+        android:textSize="35dp"
+        android:id="@+id/phrases"
+        android:background="@color/category_phrases"
+        />
+</LinearLayout>
